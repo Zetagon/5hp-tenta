@@ -1,0 +1,18 @@
+#+TITLE: Drill
+
+* Item                                   :drill:
+:PROPERTIES:
+:ID:       4714db59-95ff-43b2-9fb1-d5284672f500
+:LAST_QUALITY: 4
+:LAST_REVIEWED: [2020-03-04 ons 20:22]
+:END:
+What is the capital city of Estonia?
+
+** The Answer
+Tallinn.
+
+* Item                                                                   :drill:
+Bästa Billys?
+
+** The answer
+ORGINAL

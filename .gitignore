@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+drill.private.org
+drill.bak.org

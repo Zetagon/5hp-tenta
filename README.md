@@ -1,16 +1,43 @@
 # 5hp-tenta
-Org-drill f;r systemdesign
+Org-drill för systemdesign.
 
 # Org-drill
 
-Jag tror org-drill 'r installerat by default.
+Jag tror org-drill är installerat by default.
 
 Documentation: https://bitbucket.org/eeeickythump/org-drill/src/default/
 
 # Hur man syncar org-drill
+
+Eftersom att det kan vara lite krånligt har jag satt en branch-protection på
+master så pusha till en annan branch och skicka en pull-request.
+
+I repot finns `drill.org`som alla frågor ligger i. För att hålla isär metadata
+kommer vi ha en till fil(`drill.private.org`) som *INTE* ska läggas in i git, den är bara till för
+dig och ditt egna bruk. 
+
+## Innan du commitar:
+
+Kopiera dina ändringar till `drill.org` och i `drill.org` kalla på
+`org-drill-strip-all-data` för att ta bort all metadata. Sedan kan du committa.
+
+## Innan du kör git pull:
+
+I kopiera `drill.org` till `drill.bak.org`(den ska heller inte versionhanteras)
+och kalla sedan på `org-drill-merge-buffers` och välj `drill.private.org`. Nu är
+den senast uppdaterade filen `drill.bak.org`. Kopiera `drill.bak.org` till
+`drill.private.org`. Nu är din senaste version i `drill.private.org`
+
+## Från hemsidan
+
+
 Sharing, merging and synchronising item collections
 
-Every drill item is automatically given a persistent unique "ID" the first time it is seen by Org-Drill. This means that if two different people subsequently edit or reschedule that item, Org-Drill can still tell that it is the same item. This in turn means that collections of items can be shared and edited in a collaborative manner.
+Every drill item is automatically given a persistent unique "ID" the first time
+it is seen by Org-Drill. This means that if two different people subsequently
+edit or reschedule that item, Org-Drill can still tell that it is the same item.
+This in turn means that collections of items can be shared and edited in a
+collaborative manner.
 
 There are two commands that are useful in this regard:
 
@@ -19,6 +46,21 @@ There are two commands that are useful in this regard:
 
 An example scenario:
 
-Tim decides to learn Swedish using an item collection (.org file) made publically available by Jane. (Before publishing it Jane used 'org-drill-strip-all-data' to remove her personal scheduling data from the collection.) A few weeks later, Jane updates her collection, adding new items and revising some old ones. Tim downloads the new collection and imports his progress from his copy of the old collection, using 'org-drill-merge-buffers', using the new collection as buffer A and the old one as buffer B. He can then discard the old copy. Any items HE added to HIS copy of the old collection (buffer B) will not be lost &#x2013; they will be appended to his copy of the new collection.
+Tim decides to learn Swedish using an item collection (.org file) made
+publically available by Jane. (Before publishing it Jane used
+'org-drill-strip-all-data' to remove her personal scheduling data from the
+collection.) A few weeks later, Jane updates her collection, adding new items
+and revising some old ones. Tim downloads the new collection and imports his
+progress from his copy of the old collection, using 'org-drill-merge-buffers',
+using the new collection as buffer A and the old one as buffer B. He can then
+discard the old copy. Any items HE added to HIS copy of the old collection
+(buffer B) will not be lost &#x2013; they will be appended to his copy of the
+new collection.
 
-Of course the sharing does not need to be 'public'. You and a friend might be learning a language or some other topic together. You each maintain a card collection. Periodically your friend sends you a copy of their collection &#x2013; you run org-drill-merge-buffers on it, always using your own collection as buffer B so that your own scheduling progress is carried over. Other times you send your friend a copy of your collection, and he or she follows the same procedure.
+Of course the sharing does not need to be 'public'. You and a friend might be
+learning a language or some other topic together. You each maintain a card
+collection. Periodically your friend sends you a copy of their collection
+&#x2013; you run org-drill-merge-buffers on it, always using your own collection
+as buffer B so that your own scheduling progress is carried over. Other times
+you send your friend a copy of your collection, and he or she follows the same
+procedure.
