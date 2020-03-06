@@ -1,0 +1,183 @@
+* ISO 9241-210 (2010)
+Användbarhetsdefinition och människocentrerad utvecklingsprocess
+Lär dig mer eller mindre ordagrannt
+** Usability
+The extent to which a system, product or service can be used by _specified users_ to achieve _specified goals_ with /effectiveness/, /efficiency/ and /satisfaction/ in a _specified context of use_.
+
+** Människocentrerad design
+Nummer. ISO - Arvola - Nästa nummer
+1. Planera processen med människan i centrum - - 2
+2. Förstå och specificera brukssituationen - Skapa sig insikter - 3
+3. Specificera användar och verksamhetskrav - Omsätta insikter till avsikter och krav - 4
+4. Producera design-lösningar - Producera idéer - 5
+5. Uvärdera mot krav - Värdera idéerna - 2 eller 6
+6. Designen uppfyller kraven - - KLAR
+
+* Arvolas faser
+** Konceptfasen
+Vad ska designas och varför?
+Ta reda på saker om brukssituationen och användarna
+Bygg personas
+Tar upp designkriterier
+Diskuterar och testar idéer
+Kommer fram till en bärande idé
+Formativ utvärdering
+Hur ska systemet ses: som en maskin, ett kommunikationsmedium etc. (s. 87)
+** Bearbetningsfasen
+Ta fram funktioner och innehåll.
+Skissa på systemet
+Prototypning - Ett förslag arbetas på
+Vi bygger ut en idé till alla saker vi vill att slutprodukten ska vara
+Sitemaps, wireframes etc.
+Formativ utvärdering
+** Detaljeringsfasen
+Översätt resultat från tidigare tester och krav (från bearbetningsfasen) till mer kvantitativa krav
+Skapa krav som e.x. 90% kunderna ska vara nöjda med väntetiden, 85% ska klara av uppgift X på Y sekunder
+Tänk noggrannt på färg och form, brand identity, känsla i interaktionen etc.
+Pixelperfekta användningskartor m.m.
+Time on task, Degree of success, Success rate bör tänkas på.
+Skriver faktisk kod till prototyper
+Summativ utvärdering
+Gör en överlämning till utvecklare som implementerar, denna kommer troligen pågå under hela implementationstiden
+* Prototyp
+---------------------
+Low fidelity - Typ pappersprototyper och powerpoint-prototyper
+high fidelity - Kod som nästan är som slutkoden, kanske lite hårdkodat data etc.
+---------------------
+Vertikal - Har implementerat en bit funktionalitet väldigt djupt/nära slutprodukten.
+Horisontell - Har implementerat lite av allt. Mer fokus på användarens flow än en viss bit funktionalitet. Allt är fasad.
+T - En blandning av vertikal och horisontell. Det finns fasad för det allt, men det finns någon bit funktionalitet som går väldigt djupt.
+** Exploratory vs Inkrementell/evolutionär protory
+Exploratory: När vi utforskar oliak designförslag och ser vilken som skulle vara en bra idé. Testar olika designförslag.
+Inkrementell: Vi testar det designförslag som vi har kommit fram till och ser hur väl det funkar. Utvärderar ett designförslag.
+* Personas
+En persona _______
+Är inte en person vi tycker är representativ.
+Är baserad på många personer vi har studerat, alltså ett aggregat av många olika studerade användare.
+Är en provisional persona är om vi har hittat på människan.
+Har beteendevariabler som e.x. om de använder publika eller privata datorer mer.
+* Agile
+** Agila manifestet (4 punkter)
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan
+
+** Scrum-teamets medlemmar
+Scrum master=leder möten och process, Product owner=Snackar med kunden, Developers=Vanliga team-medlemmar som arbetar
+Not in team: Stake holders=Folk som har något intresse/någon stake i produkten, Business owner=Företagsägaren
+
+** Kanban
+Visualize work
+Focus on flow
+Limit WIP
+** Maikes föreläsning
+* Etik
+Resonera kring olika värderingar (värdegrund)
+** Friedman's paper
+User autonomy
+System capability
+System complexity
+Misrepresentation of the system
+Preexisting bias
+Technical bias
+Emergent bias
+
+* Designheuristik
+** 10 punkter av Norman/Molich - Kolla föreläsningsanteckningar, bättre än bok
+1. Visibility of system status
+2. Match between system and th real world (familiar symbols & affordances)
+3. User control and freedom (cancel options etc)
+4. Consistency and standards (physical, conceptual)
+5. Error prevention
+6. Recognition rather than recall (don't rely on memory)
+7. Flexibility and efficiency of use (people with different skills, keyboard shortcuts as alternatives)
+8. Aesthetic and minimalist design (space is of premium, don't put form over function though)
+9. Help users recover from errors
+10. Help and documentation (system should be self-explanatory. Need for documentation should be minimal, but it should exist where it is needed)
+* Principer för gränssnittsdesign
+** 1. Handlingsinviter
+** 2. Mentala modeller
+** 3. Metaforer
+** 4. Handlingscykeln
+1. Forma mål
+2. Forma intentionen att handla
+3. Specificera en handlingssekvens
+4. Utför handlingssekvensen
+5. Bli varse om vad som sker i världen
+6. Tolka vad som sker i världen
+7. Utvärdera konsekvenserna av handlingen
+** 5. Återkoppling
+** 6. Feed-forward
+Ge användaren ett koncept om vad som kan göras och vad ett element gör.
+** 7. Uppmärksamhet
+Fokusera användarens uppmärksamhet
+** 8. Nerhetskompatibilitet
+Fysisk närhet och närhet i färgkodning etc.
+** 9. Arbetsminnet
+Om arbetsminnet redan används på ett visst sätt av användaren ska vi inte ytterligare belasta det.
+E.x. en busschaufför får inte tvingas läsa en massa text.
+** 10. Fitts lag
+Tiden det tar att pricka en målyta är beroende på storleken av målytan och avståndet till målytan.
+** 11. Hick-Hymans lag
+Den tid det tar att ta ett beslut beror på antalet valmöjligheter. Att välja mellan oväntade och ovanliga val tar längre tid.
+** Övrigt
+s.122 och framåt i boken.
+Sju steg i interaktionscykeln/perceptionscykeln
+* Gestaltprinciperna
+Pappret från seminarie (2?)
+** Similarity
+Liknande saker grupperas
+** Continuation
+Saker som temporärt bryts ser ut som de fortsätter under det som bryter dem.
+** Focal point
+Annorlunda färger attrahera användarens focal point
+** Figure-ground
+Det finns en symbol-nivå som ligger ovanför bakgrundsnivån, tänk typ att du ritar punktskrift på ett papper. Punkterna ser ut att ligga på ett eget plan på en oformad bakgrund.
+** Belongingness
+Ett element tillhör alltid max en källa vid en given tid. Exempelvis tillhör ett moln bara ett moln, om det delar upp sig har vi plötsligt två nya moln som tillhör varsin källa.
+** Balance
+Symmetrisk balans: Element placeras jämnt runt central punkt på en bild.
+Assymmetrisk balans: Den kombinerade "visuella vikten" av elementen på ena sidan av en centrumpunkt är lika med den på andra sidan.
+** Proximity
+Element som ligger nära varandra kommer grupperas ihop.
+** Common fate
+Element som rör sig på samma sätt eller ändras på samma sätt grupperas ihop.
+** Closure
+När vi får en inkomplett bild så fyller vi i gapen, typ som text där vi har plockat ut lite horisontella streck.
+
+* Frågor om att utvärdera gränssnitt
+Om en fråga om att utvärdera ett gränssnitt kommer upp ska följande punkter användas: 
+- Heuristik 
+- Principer för gränssnittsdesign
+- Gestaltprinciperna
+* Cognitive walkthrough
+4 steg
+- Kommer användaren forma rätt mål
+- Kommer användaren se actionen som tar dem närmare målet?
+- Kopplar användaren associera actionen med sitt mål?
+- Får användaren rätt feedback?
+* The gulf of execution
+Det finns ett gap mellan hur användaren har brutit ner sitt mål i delmål och hur vi har brutit ner samma mål i vår tekniska lösning.
+Det finns ett gap mellan vad användaren vill och vad vårat tekniska system är designat att göra.
+Kan kopplas till första steget i cognitive walkthrough.
+* The guld of evaluation
+Får jag rätt feedback och förstår jag vad den betyder i förhållande till mitt mål?
+Det finns ett gap mellan vad användaren förväntar sig för feedback och vad den får för feedback.
+* Utvärdering
+** Expertbaserade
+Tillämpa designheuristik och cognitive walkthrough (helst på någon annans system - hemmablind)
+För att plocka lågt hängande frukt
+** Deltagarbaserade
+Enkla problem ska redan vara borta - Fokus ska ligga på att systemet kan användas som det är menat.
+Det finns inget substitut för användartester.
+*** Think-aloud evaluation
+**** Concurrent
+Ber användaren tänka högt under utförande. Kan störa användaren.
+**** Retrospective
+Spela in en interaktion och fråga samma person i efterhand "hur tänkte du här?" medan man spelar upp.
+Vill komma bort från kravet att användaren måste prata hela tiden. Detta på grund av att man exempelvis inte vill störa en busschaufför som kör och borde fokusera detta.
+Användaren kan väldigt enkelt uppfinna efterhandskonstruktioner. Det är för lätt att rationalisera saker i efterhand.
+* Accessibility vs Usability
+Usability = Definitionen i ISO 9241-210 (2010)
+Accessibility = Inte exkludera eller kraftigt begränsa vissa användare. E.x. En blind användare ska kunna använda din sida med en screen reader.
