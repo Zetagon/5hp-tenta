@@ -94,7 +94,7 @@ Vertikala prototyper bör användas vid formativa användartester för att få e
 utvärdering av en viss bit funktionalitet. 
 Horisontella prototyper bör användas för att presentera för någon stake-holder
 hur systemet ser ut.
-* Item :rill:
+* Item :drill:
 Du ingår i ett team som håller på att utveckla en nyhetsapp för unga
 brädspelsentusiaster. Flera av huvudfunktionerna har implementerats i en fungerande
 Android-app, men användbarheten hos dessa har inte utvärderats sedan
@@ -112,3 +112,11 @@ walkthrough. Av dessa skulle jag rekommendera heuristisk utvärdering för att d
 kan utföras efter väl uttagna heuristiker samtidigt som det är snabbare än cognitive walkthrough.
 
 
+* Item :drill:
+Vad finns det för tänkbara ekonomiska skäl att beakta etiska värden när system, tjänster och produkter designas?
+
+** Svar
+1. Det skapar goodwill hos kunder
+2. Det kan leda till marknadsföringsbara egenskaper
+3. Det kan leda till fler möjliga kunder (färre exkluderas)
+4. Det skrämmer inte bort potentiella medarbetare
