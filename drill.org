@@ -16,3 +16,99 @@ Bästa Billys?
 
 ** The answer
 ORGINAL
+* Item :drill:
+Vilka frågor tas vanligen upp under en daglig Scrum?
+
+** Svar
+- Vad gjorde du igår?
+- Vad ska du göra idag?
+- Finns det något som förhindrar ditt arbete?
+
+* Item :drill:
+Vilka är de tre vanliga rollerna som ingår i ett Scrum-team?
+** Svar
+Product owner
+Scrum master
+Developer
+* Item :drill:
+Nämn ett problem/en utmaning med att inkludera en s.k. /Sprint 0/ i början av en designprocess!
+** Svar
+I Scrum ska varje sprint resultera i en fungerande produkt som product ownern värdesätter.
+En /sprint 0/ går emot Scrums principer, så det är egentligen ingen Sprint - Detta kan
+förvirra teamet till att projektet blir mer waterfall-liknande.
+* Item :drill:
+Användbarhet är: "den utsträckning i vilken en
+specificerad ________ kan använda ett system, en produkt,
+eller en tjänst för att uppnå specificerade _______ 
+med _____, _______, och ______ i ett specificerat _______"
+** Svar
+(Det var svårt att hitta vettiga översättningar)
+- users
+- goals
+- effectiveness
+- efficiency
+- satisfaction
+- context of use
+* Item :drill:
+Beskriv den övergripande skillnaden i syfte mellan formativa och summativa
+användbarhetsutvärderingar (formative/summative usability evaluations), och ge
+minst två exempel på vad detta innebär för sammanhanget då respektive utvärdering
+görs, skillnader i vilken data som samlas in eller andra viktiga skillnader i utvärderingarnas upplägg.
+
+** Svar
+Formativa utvärderingar görs i syfte att under designandet av identifiera användbarhetsproblem.
+Summativa utvärderingar görs för att kontrollera användbarheten av slutprodukten.
+
+Formativa utvärderingar kan utföras med think-aloud protokoll vilket summativ utvärdering inte kan.
+
+Summativa utvärderingar samlar in mer kvantitativ data, som till exempel hur lång tid det tar för 
+användaren att göra X. Detta fokuserar inte formativa utvärderingar på.
+
+Summativa utvärderingar är till för att kunden ska kunna godkänna din produkt efter krav,
+eller för att lag, standarder eller liknande ska hålla.
+* Item :drill:
+Vilka är de fyra frågor som ställs i varje steg av en interaktion med utvärdering enligt cognitive walkthrough?
+
+** Svar
+- Kommer användaren försöka uppnå rätt sak?
+- Kommer användaren märka att den korrekta handlingsmöjligheten är tillgänglig?
+- Kommer användaren att associera rätt handlingsmöjlighet med det användaren vill uppnå?
+- Om användaren utför rätt handling, kommer detta att återspeglas i gränssnittet?
+
+* Item :drill:
+Vad representerar en Persona och vad bör en sådan vara baserad på?
+
+** Svar
+En persona representerar en arketypisk användare.
+De ska vara baserade på riktig data från en undersökning av _många_ användare.
+
+* Item :drill:
+Beskriv skillnaderna mellan horisontella och vertikala prototyper samt ge exempel på när respektive variant är lämplig att använda.
+
+** Svar
+En vertikal prototyp implementerar en smal bit funktionalitet och inget mer,
+medan en horisontell prototyp är en grund implementation av allt, så man får
+en bred vy över systemets utseende. 
+
+Vertikala prototyper bör användas vid formativa användartester för att få en 
+utvärdering av en viss bit funktionalitet. 
+Horisontella prototyper bör användas för att presentera för någon stake-holder
+hur systemet ser ut.
+* Item :rill:
+Du ingår i ett team som håller på att utveckla en nyhetsapp för unga
+brädspelsentusiaster. Flera av huvudfunktionerna har implementerats i en fungerande
+Android-app, men användbarheten hos dessa har inte utvärderats sedan
+pappersprototyp-stadiet. Du har tagit på dig att organisera genomförandet av nya
+utvärderingar i syfte att identifiera potentiella användbarhetsproblem och står och
+väger mellan expertbaserade och deltagarbaserade utvärderingar. Vad väljer du samt
+vilken specifik metod, och varför?
+
+** Svar
+En expertbaserad metod bör användas då expertbaserade metoder enkelt och billigt 
+hittar lågt hängande frukt i termer av användbarhetsproblem. 
+
+En lämplig metod skulle kunna vara en heuristisk utvärdering eller en cognitive 
+walkthrough. Av dessa skulle jag rekommendera heuristisk utvärdering för att den 
+kan utföras efter väl uttagna heuristiker samtidigt som det är snabbare än cognitive walkthrough.
+
+
