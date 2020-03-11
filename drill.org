@@ -33,9 +33,10 @@ Developer
 * Item :drill:
 Nämn ett problem/en utmaning med att inkludera en s.k. /Sprint 0/ i början av en designprocess!
 ** Svar
-I Scrum ska varje sprint resultera i en fungerande produkt som product ownern värdesätter.
-En /sprint 0/ går emot Scrums principer, så det är egentligen ingen Sprint - Detta kan
-förvirra teamet till att projektet blir mer waterfall-liknande.
+- Sätter ut en sprint som har annorlunda regler än alla andra.
+- outsource:ar lite arbete till ett annat team
+- Förhastad och ovaliderad design
+- Det kommer ändå oförutsägbara förändringar under utvecklingsfasen
 * Item :drill:
 Användbarhet är: "den utsträckning i vilken en
 specificerad ________ kan använda ett system, en produkt,

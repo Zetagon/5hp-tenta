@@ -23,6 +23,11 @@ Diskuterar och testar idéer
 Kommer fram till en bärande idé
 Formativ utvärdering
 Hur ska systemet ses: som en maskin, ett kommunikationsmedium etc. (s. 87)
+*** Kontextuell undersökning
+En undersökning där man deltar i och observerar en domänexperts
+arbete mha intervjuer och tyst observation.
+
+Bygga förståelse för drivkrafter, orosmoment, mål, handlingsstrategier.
 ** Bearbetningsfasen
 Ta fram funktioner och innehåll.
 Skissa på systemet
@@ -30,6 +35,11 @@ Prototypning - Ett förslag arbetas på
 Vi bygger ut en idé till alla saker vi vill att slutprodukten ska vara
 Sitemaps, wireframes etc.
 Formativ utvärdering
+*** Brukskvalitetsanalys (nterpretative Phenomenological Analysis)
+En analys där man ska ta reda på hur en användare upplever ett system.
+E.x. skrämmande. 
+
+Görs mha intervju, dagbok, fokusgrupp etc.
 ** Detaljeringsfasen
 Översätt resultat från tidigare tester och krav (från bearbetningsfasen) till mer kvantitativa krav
 Skapa krav som e.x. 90% kunderna ska vara nöjda med väntetiden, 85% ska klara av uppgift X på Y sekunder
