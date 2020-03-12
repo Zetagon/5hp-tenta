@@ -1,0 +1,432 @@
+* ISO 9241-210 (2010)
+Användbarhetsdefinition och människocentrerad utvecklingsprocess
+Lär dig mer eller mindre ordagrannt
+** Usability
+The extent to [which a system, product or service] can be used by [specified
+users] to achieve [specified goals] with [effectiveness], [efficiency] and
+[satisfaction] in a [specified context of use].
+
+** Usability
+The extent to which a system, product or service can be used by [specified
+users] to achieve _specified goals_ with /effectiveness/, /efficiency/ and
+/satisfaction/ in a _specified context of use_.
+
+** TODO Människocentrerad design
+Nummer. ISO - Arvola - Nästa nummer
+1. Planera processen med människan i centrum - - 2
+2. Förstå och specificera brukssituationen - Skapa sig insikter - 3
+3. Specificera användar och verksamhetskrav - Omsätta insikter till avsikter och krav - 4
+4. Producera design-lösningar - Producera idéer - 5
+5. Uvärdera mot krav - Värdera idéerna - 2 eller 6
+6. Designen uppfyller kraven - - KLAR
+
+
+* Arvolas faser                                                          :drill:
+:PROPERTIES:
+:ID:       653155d3-f78a-43d9-94ec-8a1958e54afc
+:END:
+Vilka är Arvolas designfaser?
+** Svar
+Konceptfasen
+bearbetningsfasen
+detaljeringsfasen
+* Arvolas faser
+* Konceptfasen
+Vad är syftet med konceptfasen?
+** Svar
+att ta reda på vad det är för något som ska tas fram och varför. Den är till för
+att skapa en vision och målsättning.
+* Konceptfasen                                                           :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       a9cbafb5-0e13-4ea5-8f2e-118a9f521f64
+  :END:
+Vad gör man i konceptfasen?
+[Ta reda på saker om brukssituationen och användarna]
+[Bygg personas]
+[Tar upp designkriterier]
+[Diskuterar och testar idéer]
+[Kommer fram till en bärande idé]
+[Formativ utvärdering]
+* Bearbetningsfasen                                                      :drill:
+:PROPERTIES:
+:ID:       9ba67a47-5758-4cd0-a158-e9d180eaa061
+:END:
+Vad är syftet med bearbetningsfasen?
+** svar
+att ta fram funktioner och innehåll
+* Bearbetningsfasen                                                      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       0b9b7cfd-5395-4b76-9570-8bacdedf69a6
+  :END:
+Vad gör man i bearbetningsfasen?
+[Skissa på systemet]
+[Prototypning - Ett förslag arbetas på]
+[Vi bygger ut en idé till alla saker vi vill att slutprodukten ska vara]
+[Formativ utvärdering]
+* Detaljeringsfasen
+Översätt resultat från tidigare tester och krav (från bearbetningsfasen) till mer kvantitativa krav
+Skapa krav som e.x. 90% kunderna ska vara nöjda med väntetiden, 85% ska klara av uppgift X på Y sekunder
+Tänk noggrannt på färg och form, brand identity, känsla i interaktionen etc.
+Pixelperfekta användningskartor m.m.
+Time on task, Degree of success, Success rate bör tänkas på.
+Skriver faktisk kod till prototyper
+Summativ utvärdering
+Gör en överlämning till utvecklare som implementerar, denna kommer troligen pågå under hela implementationstiden
+* Prototyp
+---------------------
+Low fidelity - Typ pappersprototyper och powerpoint-prototyper
+high fidelity - Kod som nästan är som slutkoden, kanske lite hårdkodat data etc.
+---------------------
+Vertikal - Har implementerat en bit funktionalitet väldigt djupt/nära slutprodukten.
+Horisontell - Har implementerat lite av allt. Mer fokus på användarens flow än en viss bit funktionalitet. Allt är fasad.
+T - En blandning av vertikal och horisontell. Det finns fasad för det allt, men det finns någon bit funktionalitet som går väldigt djupt.
+** Exploratory vs Inkrementell/evolutionär protory
+Exploratory: När vi utforskar oliak designförslag och ser vilken som skulle vara
+en bra idé. Testar olika designförslag.
+
+Inkrementell: Vi testar det designförslag som vi har kommit fram till och ser
+hur väl det funkar. Utvärderar ett designförslag.
+** Exploratory                                                          :drill:
+:PROPERTIES:
+:ID:       b8496f8a-6cf5-4246-b85b-4ab5c4f472aa
+:END:
+Vad är exploratory prototyping? Vad är syftet?
+*** svar
+Prototypning som testar olika designförslag. Vi utforskar olika förslag och
+försöker ta fram den bästa
+** Inkrementell/evolutionär prototyping
+Vad är Inkrementell/evolutionär prototyping? Vad är syftet?
+*** svar
+prototypning som är till för att utvärdera hur bra ett specifikt designförslag
+fungerar. Det utvärderar ett designförslag.
+* Personas
+En persona _______
+Är inte en person vi tycker är representativ.
+** Persona                                                              :drill:
+:PROPERTIES:
+:ID:       bf8d65d0-788c-4352-8a7b-8dc0b949be23
+:END:
+Är baserad på [många personer vi har studerat, alltså ett aggregat av många olika studerade användare.]
+** Persona                                                              :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: hide1cloze
+:ID:       d4d28e4c-4962-4884-a511-120844bce46d
+:END:
+Är en [provisional persona] är om [vi har hittat på människan.]
+** Persona                                                              :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: hide1cloze
+:ID:       b072c5e4-470d-45db-a90a-5fefa78aa959
+:END:
+Har [beteendevariabler] som e.x. [om de använder publika eller privata datorer mer.]
+* Agile
+** Agila manifestet (4 punkter)                                         :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: hide1cloze
+:ID:       a5432d70-2318-4b8d-957c-de45140ef18d
+:END:
+[Individuals and interactions] over [processes and tools]
+[Working software] over [comprehensive documentation]
+[Customer collaboration] over [contract negotiation]
+[Responding to change] over [following a plan]
+
+** Agila manifestet (4 punkter)                                         :drill:
+:PROPERTIES:
+:ID:       a8e4d16f-b6a1-49fc-920b-e789e9f29b51
+:END:
+Vilka punkter finns i Agila manifestet_
+*** Svar
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan
+
+** Scrum-teamets medlemmar
+Scrum master=leder möten och process, Product owner=Snackar med kunden, Developers=Vanliga team-medlemmar som arbetar
+Not in team: Stake holders=Folk som har något intresse/någon stake i produkten, Business owner=Företagsägaren
+
+** Kanban                                                               :drill:
+:PROPERTIES:
+:ID:       2e371813-88df-4749-971a-01ba942d732c
+:END:
+What three characteristics are there in Kanban?
+*** Answer
+Visualize work
+Focus on flow
+Limit WIP
+** Maikes föreläsning
+* Etik
+Resonera kring olika värderingar (värdegrund)
+** Friedman's paper
+User autonomy
+System capability
+System complexity
+Misrepresentation of the system
+Preexisting bias
+Technical bias
+Emergent bias
+*** Fråga                                                              :drill:
+:PROPERTIES:
+:ID:       bec8a0b1-f6e3-4af5-b665-d9e1bbf44e95
+:END:
+Vilka två värden(values) diskuterar Friedman?
+**** Answer
+User autonomy och freedom from bias
+*** Word                                                               :drill:
+:PROPERTIES:
+:ID:       b8b5e178-4353-4dc6-ac3b-be0e98a2aebc
+:END:
+Vilka orsaker kan det finnas till att user autonomy begränsas?
+**** Answer
+(system capability)Systemet är begränsat och begränsar på så sätt användaren
+(system complexity) Systemet är för komplicerat så det är svårt att hitta eller
+på annat sätt utföra det man vill göra.
+(misrepresentation of the system) Det användaren förväntar sig av
+systemet(förväntninga skapade av marknadsföring etc.) matchar inte systemet.
+Användaren förväntar sig exempelvis att hen kan göra något som systemet inte kan
+göra vilket gör att användaren känner sig begränsad
+
+*** Word                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: hide1cloze
+:ID:       c2fd19ee-3405-4ff0-9720-30fc7e935801
+:END:
+Vilka orsaker kan det finnas till att user autonomy begränsas?
+[(system capability)Systemet är begränsat och begränsar på så sätt användaren]
+[(system complexity) Systemet är för komplicerat så det är svårt att hitta eller
+på annat sätt utföra det man vill göra.]
+[(misrepresentation of the system) Det användaren förväntar sig av
+systemet(förväntninga skapade av marknadsföring etc.) matchar inte systemet.
+Användaren förväntar sig exempelvis att hen kan göra något som systemet inte kan
+göra vilket gör att användaren känner sig begränsad]
+
+* Designheuristik
+** 10 punkter av Norman/Molich - Kolla föreläsningsanteckningar, bättre än bok
+1. Visibility of system status
+2. Match between system and th real world (familiar symbols & affordances)
+3. User control and freedom (cancel options etc)
+4. Consistency and standards (physical, conceptual)
+5. Error prevention
+6. Recognition rather than recall (don't rely on memory)
+7. Flexibility and efficiency of use (people with different skills, keyboard shortcuts as alternatives)
+8. Aesthetic and minimalist design (space is of premium, don't put form over function though)
+9. Help users recover from errors
+10. Help and documentation (system should be self-explanatory. Need for documentation should be minimal, but it should exist where it is needed)
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       9cc6386f-9856-401a-94ec-46de7cd9f10c
+:END:
+What does visibility of system status mean?
+
+- [The user shoul always be able to tell what the system is doing]
+- [Make it clear whether the user is in control
+  - e.g. waiting for something or if the user can input something]
+- [appropriate feedback within a reasonable time frame]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       8c18898a-64fc-43f5-9529-3e8f8f1546e1
+:END:
+What does match between system and the real world mean?
+
+- [language and symbols are familiar to the user]
+- [use metaphors to help convey concepts that are not familiar to the user]
+- [affordances]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       84126382-c00f-48c1-b64f-c7e1c7867159
+:END:
+What does user control and freedom mean?
+
+- [allow people to take control] e.g.:
+  - [to cancel an ongoing process]
+  - [to undo a missclick]
+  - [to redo when you go back to far]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       72054353-0ce4-45dc-9a92-565615bfbb05
+:END:
+What does consistency and standars mean as a designheuristic?
+
+- [follow conventions and standards so that users can apply prior knowledge]
+- [inconsistency can be used to draw attention]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       19d2850c-9b15-46fe-9418-6040a3c4b657
+:END:
+What does error prevention mean?
+
+- [inclusion of constraints that prevent people from doing inappropriate things]
+- [help people avoid making serious erros, e.g. confirmation dialogue when
+  deleting a file]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       8da13c51-7e77-471a-b197-f84430630795
+:END:
+What does recognition rather than recall mean?
+
+- [human's have bad working memory]
+- [humans are good att recognizing patterns]
+- therefore [don't rely on people remembering]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       0995507b-7d48-45b4-bed8-62974659a677
+:END:
+What does flexibility and efficiency of use mean?
+
+- [accomodate for people with different levels of interest or experience]
+- [provide multiple ways of doing things(e.g. keyboard shortcuts)]
+- [provide people with the to customize] e.g.
+  - [Novice vs expert tools]
+  - [customizable toolbars]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       3ac5edb5-d8c0-4fb7-90b5-e7558d02d285
+:END:
+What does aestetic and minimalist design mean?
+
+- [space is usually of premium]
+  - [too much info makes it hard to discern what is important]
+- [But functionality should come before aestetics]
+** designheuristik                                                              :drill:
+:PROPERTIES:
+:ID:       d9f05e0b-b98e-4cce-9fa7-d576b5349ffd
+:END:
+What does help and documentation mean?
+
+- [ideally the documentation should be minimal]
+  - [The system should feel self-explanatory]
+- when necessary, documentation should be
+  - [easily accessible]
+  - [relevant to the present task]
+  - [concrete and concise]
+* Principer för gränssnittsdesign
+** 1. Handlingsinviter
+** 2. Mentala modeller
+** 3. Metaforer
+** 4. Handlingscykeln
+:PROPERTIES:
+:DRILL_CARD_TYPE: hide1cloze
+:END:
+1. [Forma mål]
+2. [Forma intentionen att handla]
+3. [Specificera en handlingssekvens]
+4. [Utför handlingssekvensen]
+5. [Bli varse om vad som sker i världen]
+6. [Tolka vad som sker i världen]
+7. [Utvärdera konsekvenserna av handlingen]
+** 5. Återkoppling
+** 6. Feed-forward
+Ge användaren ett koncept om vad som kan göras och vad ett element gör.
+** 7. Uppmärksamhet
+Fokusera användarens uppmärksamhet
+** 8. Nerhetskompatibilitet
+Fysisk närhet och närhet i färgkodning etc.
+** 9. Arbetsminnet
+Om arbetsminnet redan används på ett visst sätt av användaren ska vi inte ytterligare belasta det.
+E.x. en busschaufför får inte tvingas läsa en massa text.
+** 10. Fitts lag
+Tiden det tar att pricka en målyta är beroende på storleken av målytan och avståndet till målytan.
+** 11. Hick-Hymans lag
+Den tid det tar att ta ett beslut beror på antalet valmöjligheter. Att välja mellan oväntade och ovanliga val tar längre tid.
+** Övrigt
+s.122 och framåt i boken.
+Sju steg i interaktionscykeln/perceptionscykeln
+* Gestaltprinciperna
+Pappret från seminarie (2?)
+** Similarity
+Liknande saker grupperas
+** Continuation
+Saker som temporärt bryts ser ut som de fortsätter under det som bryter dem.
+** Focal point
+Annorlunda färger attrahera användarens focal point
+** Figure-ground
+Det finns en symbol-nivå som ligger ovanför bakgrundsnivån, tänk typ att du ritar punktskrift på ett papper. Punkterna ser ut att ligga på ett eget plan på en oformad bakgrund.
+** Belongingness
+Ett element tillhör alltid max en källa vid en given tid. Exempelvis tillhör ett moln bara ett moln, om det delar upp sig har vi plötsligt två nya moln som tillhör varsin källa.
+** Balance
+Symmetrisk balans: Element placeras jämnt runt central punkt på en bild.
+Assymmetrisk balans: Den kombinerade "visuella vikten" av elementen på ena sidan av en centrumpunkt är lika med den på andra sidan.
+** Proximity
+Element som ligger nära varandra kommer grupperas ihop.
+** Common fate
+Element som rör sig på samma sätt eller ändras på samma sätt grupperas ihop.
+** Closure
+När vi får en inkomplett bild så fyller vi i gapen, typ som text där vi har plockat ut lite horisontella streck.
+
+* Gestaltprinciperna                                                     :drill:
+:PROPERTIES:
+:ID:       3e3cf731-3487-4b64-9a34-29c51333ff39
+:DRILL_CARD_TYPE: hide2cloze
+:END:
+Vilka är gestaltprinciperna?
+  - [Similarity]
+  [Liknande saker grupperas]
+  -  [Continuation]
+  [Saker som temporärt bryts ser ut som de fortsätter under det som bryter dem.]
+  -  [Focal point]
+  [Annorlunda färger attrahera användarens focal point]
+  -  [Figure-ground]
+  [Det finns en symbol-nivå som ligger ovanför bakgrundsnivån, tänk typ att du ritar punktskrift på ett papper. Punkterna ser ut att ligga på ett eget plan på en oformad bakgrund.]
+  -  [Belongingness]
+  [Ett element tillhör alltid max en källa vid en given tid. Exempelvis tillhör ett moln bara ett moln, om det delar upp sig har vi plötsligt två nya moln som tillhör varsin källa.]
+  -  [Balance]
+  [Symmetrisk balans: Element placeras jämnt runt central punkt på en bild.
+  Assymmetrisk balans: Den kombinerade "visuella vikten" av elementen på ena sidan av en centrumpunkt är lika med den på andra sidan.]
+  -  [Proximity]
+  [Element som ligger nära varandra kommer grupperas ihop.]
+  -  [Common fate]
+  [Element som rör sig på samma sätt eller ändras på samma sätt grupperas ihop.]
+  -  [Closure]
+  [När vi får en inkomplett bild så fyller vi i gapen, typ som text där vi har plockat ut lite horisontella streck.]
+
+* Frågor om att utvärdera gränssnitt                                     :drill:
+:PROPERTIES:
+:ID:       6e8f7019-8dd5-4e31-b94c-a3263fc1f82b
+:END:
+Om en fråga om att utvärdera ett gränssnitt kommer upp ska följande punkter användas:
+** answer
+- Heuristik 
+- Principer för gränssnittsdesign
+- Gestaltprinciperna
+* Cognitive walkthrough
+4 steg
+- Kommer användaren forma rätt mål
+- Kommer användaren se actionen som tar dem närmare målet?
+- Kopplar användaren associera actionen med sitt mål?
+- Får användaren rätt feedback?
+* The gulf of execution                                                  :drill:
+:PROPERTIES:
+:ID:       a68af944-04b2-4111-ad0a-86fe1bcc2db2
+:END:
+Vad är the gulf of execution?
+** answer
+Det finns ett gap mellan hur användaren har brutit ner sitt mål i delmål och hur vi har brutit ner samma mål i vår tekniska lösning.
+Det finns ett gap mellan vad användaren vill och vad vårat tekniska system är designat att göra.
+Kan kopplas till första steget i cognitive walkthrough.
+* The guld of evaluation                                                 :drill:
+:PROPERTIES:
+:ID:       d5f54775-085e-4fc9-b49a-ee628ca771c0
+:END:
+Vad är the gulf of evalutation?
+** answer
+Får jag rätt feedback och förstår jag vad den betyder i förhållande till mitt mål?
+Det finns ett gap mellan vad användaren förväntar sig för feedback och vad den får för feedback.
+* Utvärdering
+** Expertbaserade
+Tillämpa designheuristik och cognitive walkthrough (helst på någon annans system - hemmablind)
+För att plocka lågt hängande frukt
+** Deltagarbaserade
+Enkla problem ska redan vara borta - Fokus ska ligga på att systemet kan användas som det är menat.
+Det finns inget substitut för användartester.
+*** Think-aloud evaluation
+**** Concurrent
+Ber användaren tänka högt under utförande. Kan störa användaren.
+**** Retrospective
+Spela in en interaktion och fråga samma person i efterhand "hur tänkte du här?" medan man spelar upp.
+Vill komma bort från kravet att användaren måste prata hela tiden. Detta på grund av att man exempelvis inte vill störa en busschaufför som kör och borde fokusera detta.
+Användaren kan väldigt enkelt uppfinna efterhandskonstruktioner. Det är för lätt att rationalisera saker i efterhand.
+* Accessibility vs Usability
+Usability = Definitionen i ISO 9241-210 (2010)
+Accessibility = Inte exkludera eller kraftigt begränsa vissa användare. E.x. En blind användare ska kunna använda din sida med en screen reader.
