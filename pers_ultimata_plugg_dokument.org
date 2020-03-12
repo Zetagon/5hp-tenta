@@ -62,11 +62,11 @@ T - En blandning av vertikal och horisontell. Det finns fasad för det allt, men
 Exploratory: När vi utforskar oliak designförslag och ser vilken som skulle vara en bra idé. Testar olika designförslag.
 Inkrementell: Vi testar det designförslag som vi har kommit fram till och ser hur väl det funkar. Utvärderar ett designförslag.
 * Personas
-En persona _______
-Är inte en person vi tycker är representativ.
-Är baserad på många personer vi har studerat, alltså ett aggregat av många olika studerade användare.
-Är en provisional persona är om vi har hittat på människan.
-Har beteendevariabler som e.x. om de använder publika eller privata datorer mer.
+En persona ______
+- *är inte* en person vi tycker är representativ.
+- *är* baserad på många personer vi har studerat, alltså ett aggregat av många olika studerade användare.
+- *är* en "provisional persona" om vi har hittat på personan utan underlag från data.
+- *har* beteendevariabler som e.x. om de använder publika eller privata datorer mer.
 * Agile
 ** Agila manifestet (4 punkter)
 Individuals and interactions over processes and tools
