@@ -5,13 +5,14 @@ Lär dig mer eller mindre ordagrannt
 The extent to which a system, product or service can be used by _specified users_ to achieve _specified goals_ with /effectiveness/, /efficiency/ and /satisfaction/ in a _specified context of use_.
 
 ** Människocentrerad design
-Nummer. ISO - Arvola - Nästa nummer
-1. Planera processen med människan i centrum - - 2
-2. Förstå och specificera brukssituationen - Skapa sig insikter - 3
-3. Specificera användar och verksamhetskrav - Omsätta insikter till avsikter och krav - 4
-4. Producera design-lösningar - Producera idéer - 5
-5. Uvärdera mot krav - Värdera idéerna - 2 eller 6
-6. Designen uppfyller kraven - - KLAR
+| X | ISO                                       | Arvola                                  |            Next |
+|---+-------------------------------------------+-----------------------------------------+-----------------|
+| 1 | Planera processen med människan i centrum |                                         |               2 |
+| 2 | Förstå och specificera brukssituationen   | Skapa sig insikter                      |               3 |
+| 3 | Specificera användar och verksamhetskrav  | Omsätta insikter till avsikter och krav |               4 |
+| 4 | Producera design-lösningar                | Producera idéer                         |               5 |
+| 5 | Uvärdera mot krav                         | Värdera idéerna                         | 2, 3, 4 eller 6 |
+| 6 | Designen uppfyller kraven                 |                                         |            KLAR |
 
 * Arvolas faser
 ** Konceptfasen
